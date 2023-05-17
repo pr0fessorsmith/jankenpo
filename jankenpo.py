@@ -46,8 +46,7 @@ def get_winner(user1_choice, user2_choice):
 def play_game():
     print(welcome)     
     user1_choice = get_user1_choice()
-    user2_choice = get_user2_choice()    
-    
+    user2_choice = get_user2_choice()   
     get_winner(user1_choice, user2_choice)
 
 
